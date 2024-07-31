@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection (replace 'your_connection_string' with your actual connection string)
-mongoose.connect('mongodb+srv://siddahyndavi:11AlDiNml8A68nJ2@cluster0.bidjtwz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://user2000:Hello123@cluster0.twjxyxf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
 
 db.once('open', () => {
